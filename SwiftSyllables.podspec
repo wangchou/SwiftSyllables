@@ -22,10 +22,12 @@ Simple syllable counter written in Swift using a combination of dictionary looku
   s.social_media_url = 'https://twitter.com/vivqu'
 
   s.ios.deployment_target = '8.3'
+  s.osx.deployment_target = '10.15'
 
   s.source_files = 'SwiftSyllables/Classes/**/*'
 
+  s.module_name = 'SwiftSyllables'
   s.resource_bundles = { 'CMUDict' => ['SwiftSyllables/Assets/**/cmudict'] }
-  s.swift_versions = ['5.2']
+  s.swift_versions = ['5.0', '5.2']
 
 end
